@@ -8,6 +8,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	
+  <form action="process_form.php" method="post">
+
+    <!-- Name -->
+    <label for="name">Name</label>
+    <input type="Text" id="name"  required>
+
+    <!-- Email -->
+    <label for="email">Email</label>
+    <input type="Email" id="email" required>
+
+    <!-- Gender -->
+    <label>Gender</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male"  required>
+    <label for="female">Female</label>
+    <input type="radio" required>
+
+    <!-- Car Brands -->
+    <label for="cars">Car Brands</label>
+    <select id="cars" name="cars">
+      <option value="bmw">BMW</option>
+      <option value="audi">Audi</option>
+      <option value="mercedes">Mercedes</option>
+    </select>
+
+    <!-- Car Age -->
+    <label for="carage">Car Age</label>
+    <input type="Number" id="carage" required>
+
+    <!-- Date of Purchase -->
+    <label for="dop">Date of Purchase(dop)</label>
+    <input type="Date" id="dop" name="dop" required>
+
+    <!-- Password -->
+    <label for="password">Password</label>
+    <input type="Password" id="password"  required>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+
+  </form>
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 
